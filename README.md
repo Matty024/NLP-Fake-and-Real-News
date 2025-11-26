@@ -1,4 +1,5 @@
 Natural Language Processing (NLP): fake-and-real-news
+By Matthew Scott (2406934)
 
 
 
@@ -8,6 +9,9 @@ Natural Language Processing (NLP): fake-and-real-news
 
 Dataset:
 Link to dataset: fake-and-real-news-dataset
+
+
+
 Section 1: Dataset
 About:
 -	The dataset (“fake-and-real-news-dataset”) was found on Kaggle and was uploaded by clmentbisaillon on the 19th of April 2024 and contains 2 CSV files: “Fake.csv”, which contains 23502 fake news articles, and another “True.csv”, which contains 21417 real news articles. Both CSV files have 4 columns: title (name of the article), text (information covered), subject (what it is), and date.
