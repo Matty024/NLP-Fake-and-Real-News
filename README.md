@@ -8,7 +8,8 @@ By Matthew Scott (2406934)
 
 
 
-Dataset:
+Links:
+Link to GitHub: NLP-Fake-and-Real-News/README.md at main · Matty024/NLP-Fake-and-Real-News
 Link to dataset: fake-and-real-news-dataset
 
 
@@ -23,13 +24,14 @@ Pre-processing:
 -	Normalization: the text column will be normalized.
 -	Tokenization: the normalized text will be converted into tokens of 1 term.
 -	Stop Words: any stop word found in the tokenized text will be removed. 
--	Lemmatization: this will be used over Stemming because Lemmatization is more accurate, turning words into their true dictionary meaning, and is better suited for this assessment.
+-	Lemmatization: This will be used over Stemming because Lemmatization is more accurate, turning words into their true dictionary meaning, and is better suited for this assessment.
 
 
 
 Section 2: Representation Learning
 What it is:
 -	Representation Learning in NLP is the process of converting the text data into “numerical vector” that can be used and understood by the algorithms. This is achieved by taking the text and applying one of the vectorisation models to it (such as Word Embedding, Contextualized Embedding, Transfer Learning, and Document Embedding).
+
 Method used: 
 -	For this assessment, TF-IDF (Term Frequency-Inverse Document Frequency) will be used. TF-IDF is a “statistical” method used to determine how important a word is to a document. This is achieved by first the TF (how often a word appears, higher the frequency = the more important) and second the IDF (reduces the weight of common words (‘and’) and increases the weights of rare words (‘cat’)). Using both of these steps, TF-IDF can be used in text classification, search rankings, and other tasks.
 -	As the dataset is so large, with 44898 rows and contains full news articles, TF-IDF is the best choice as it does not require huge RAM or CPU to run and is very easy to implement into the assessment without sacrificing the accuracy of the models, as TF-IDF is often used for text classification (fake or real news).
@@ -39,8 +41,8 @@ Method used:
 Section 3: Algorithms
 -	For this Assessment 2, NLP Algorithms will be implemented on the Real or Fake news dataset, the 2 Algorithms will be:
 MLP (Multi-Layer Perceptron): 
--	What it is: MLP is a “supervised” learning algorithm that contains connected dense layers that are transforms input data from one dimension to another (output data).
--	How it works: MLP consists of 3 layers: input layer (each node in this relates to an input feature), hidden layer (this section processes the information from the input layer), and output layer (this generates the final result / production). These layers are all fully connected (e.g., every node in one layer connects to every node in the next). To process the nodes, MLP implementation involves several functions (e.g., Forward Propagation, Loss Function, Backpropagation, and optimization) and weighted sums to produce the output Layer.
+-	What it is: MLP is a “supervised” learning algorithm that contains connected dense layers that transform input data from one dimension to another (output data).
+-	How it works: MLP consists of 3 layers: input layer (each node in this relates to an input feature), hidden layer (this section processes the information from the input layer), and output layer (this generates the final result/production). These layers are all fully connected (e.g., every node in one layer connects to every node in the next). To process the nodes, MLP implementation involves several functions (e.g., Forward Propagation, Loss Function, Backpropagation, and optimization) and weighted sums to produce the output Layer.
 -	Why used: MLP will be used as it can learn complex nonlinear relationships between the data and is suited for complex datasets where understanding the context of the data is key.
 SVM (Support Vector Machine): 
 -	What it is: SVM is also a “supervised” learning algorithm that uses classification and regression tasks to find the hyperplane between 2 or more classes.
@@ -82,9 +84,3 @@ GeeksforGeeks (2021). Normalizing Textual Data with Python. [online] GeeksforGee
  ChatGPT. (2025). ChatGPT - Convert numbers to words. [online] Available at: https://chatgpt.com/share/691f7c29-b67c-8010-8a07-be701fee7f59 [Accessed 20 Nov. 2025].
  ChatGPT. (2025). ChatGPT - NLP assessment breakdown. [online] Available at: https://chatgpt.com/share/691f7e23-c85c-8010-ac74-80a7c0ce3d8e [Accessed 20 Nov. 2025].
  ChatGPT. (2017). ChatGPT - Assessment breakdown NLP. [online] Available at: https://chatgpt.com/share/691f7e7e-f418-8010-86ee-f56ea3136452 [Accessed 20 Nov. 2025].
-
-
-
-
-
-
